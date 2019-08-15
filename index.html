@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JT PORTFOLIO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel='stylesheet prefetch' href='https://www.w3schools.com/lib/w3.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin|Cardo|Crete+Round|Domine|Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" type="image/png" href="pictures/jtlogo.png">
+
+
+</head>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li><a href="#" class="w3-padding-large">Tubungbanua</a></li>
+    <li class="w3-hide-jumbo w3-right">
+      <a href="#contact" class="w3-padding-large">Contact</a>
+    </li>
+    <li class="w3-hide-jumbo w3-right">
+      <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+    </li>
+    <li class="w3-hide-jumbo w3-right">
+      <a href="#about" class="w3-padding-large">About</a>
+    </li>
+  </ul>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <h1 class="w3-center w3-padding-xlarge w3-black w3-xxlarge w3-wide w3-animate-opacity w3-robot">Joan Marie <span class="w3-hide-small">Tubungbanua</span></h1>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center w3-jumbo w3-robot">ABOUT ME</h2>
+  <p class="w3-center"><em>The name is Tubungbanua.</em> <br> <em>Joan Two-Bung-Ban-Wah.</em></p>
+  <p>18 year old Filpina Girl who hopes to make a career out of exploring the cross section between technology and the arts.I am currently studying Software Engineering at Stevens Institute of Technology in Hoboken, New Jersey. My goal is to be one of the leading women to bridge the diversity gap in tech and to create magical things. Follow my journey as I try to accomplish them!  </p>
+  <!--  Profile Picture and Description
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-section">
+      <img src="https://www.dropbox.com/s/mm2bb2xyftqn6am/profile%20%281%29.jpg?raw=1" id="profile" class="w3-circle" alt="Photo of Me">
+    </div> -->
+
+
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container" id="portfolio">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide w3-robot">Designer</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h2 class="w3-center w3-robot w3-jumbo">Graphic Design Work</h2>
+  <p class="w3-center"> I am fascinated by details on the designs of billboards, posters, playbills. So much, that I began making them myself. Currently, I work as a Graphic Designer/Social Media Manager at a local dance company in my town and it has challenged me to think and research what families like to see. On my spare time, I also enjoy making posters for school events while also designing things for pure leisure.
+  <h3 class = "w3-center"> <strong> Tools I use: </strong> Photopshop & Canva </h3>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="pictures/winter_pinta.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pictures/htbookclub.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pictures/ooti.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+
+    <div class="w3-col m3">
+      <img src="pictures/talkshow_brochure.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
+
+<!-- third Parallax Image with Maker Text -->
+<div class="bgimg-3 w3-display-container" id="code">
+  <div class="w3-display-middle">
+    <h2 class="w3-xxlarge w3-text-light-grey w3-wide w3-robot">Maker</h2>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <h2 class="w3-center w3-robot w3-jumbo">Made with Code</h2>
+  <p class="w3-center"> I only discovered that Computer Science could be a career my sophomore year in high school. The following summer, I joined a seven week summer immersion program which provided me with the foundation of Computer Science. Ever since, I have dedicated myself to attending hackathons,teaching myself through personal projects, as well as founding and managing the Girls Who Code Club at my high school. I want to spend the next several years in developing my skills as a creator and seeing where it takes me.</p>
+
+    <h3 class = "w3-center"> <strong> Languages/ Tools I am familiar with: </strong> Python, HTML/CSS/JavaScript, Java, MIT App Inventor, GIT</h3>
+
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-row">
+  <div class="w3-col m4 l3">
+    <img src="pictures/untitled_thumb.jpg" style="width:100%" class="w3-hover-opacity">
+  </div>
+  <div class="w3-col m8 l9">
+    <h3> Untitled  </h3>
+    <p>Untitled was a project I had developed at the Girls Who Code Summer Immersion Program. It was a books meets Pokemon Go concept. <br> We wanted to find a way for people to read and go to their local libraries more often. So when a user enters the website, they see a shelve filled with books without the title of the book. All they receive are tags that provide snippets of things found in the story and when they click on it, they receive an excerpt and on the side they see a map with an input bar. The user needs to enter in their current location and they are provided with a list of local libraries that has the speficic book. It is their job to go find it and read it, once they've accomplished  that, they receive points for reading it. A Book Adventure!</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-row-padding-large w3-center w3-section">
+  <div class="w3-col m4 l3">
+    <img src="pictures/recycle.jpg" style="width:100%" class="w3-hover-opacity">
+  </div>
+  <div class="w3-col m8 l9">
+    <h3> Recíclame  </h3>
+    <p>Recíclame is a mobile app for Android phones entirely in Spanish that teaches kids the fundamentals of recycling. The app includes a point system for recording what has been recycled as well as a mini game where kids have to drag the recycling bin and catch the correct recyclables </p>
+  </div>
+</div>
+
+
+
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- Fourth Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container" id="perform">
+  <div class="w3-display-middle">
+    <h2 class="w3-xxlarge w3-text-light-grey w3-wide w3-robot">Performer</h2>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <h2 class="w3-center w3-robot w3-jumbo">Performing Arts</h2>
+  <p class="w3-center"> I was born a performer. To be fair, I could not really escape from the Daily Karaoke forced upon my Filipino aunts. (If you're a Filipino, I know you can relate) Not being able to afford singing lessons, I still sang my heart out. Joining my middle school rockband is what truly sparked my performer side. My freshman year of High School, I decided to explore other elements of the arts which is how I eventually landed as a Musical theatre Major in my high school.</p>
+  <h3 class = "w3-center"> <strong> Notable Performances </strong> </h3>
+  <p class = "w3-center">
+    <ul>
+      <li> Opening Act for the David Byrne Tribute at Carnegie Hall </li>
+      <li> Special Performance for the Guitar Center Times Square Flagship store Opening in Times Sq. at the W Hotel with Billy Joel's Former Drummer </li>
+      <li> Abuela Claudia in High Tech High School's production of <em> In The Heights </em> </li>
+    </ul>
+  </p>
+
+
+  <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="pictures/abuelita.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="pictures/abuela2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+
+
+
+      <div class="w3-col m3">
+        <img src="pictures/moolan.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="pictures/davidbyrne.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+
+<!--
+      <div class="w3-row-padding w3-center w3-section">
+          <div class="w3-col m3">
+            <img src="pictures/andy_wintz.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          </div>
+
+          <div class="w3-col m3">
+            <img src="pictures/colorpurple.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+
+</div>
+
+          <div class="w3-col m3">
+            <img src="pictures/beatlescrazy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          </div>
+
+          <div class="w3-col m3">
+            <img src="pictures/carnegie.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          </div> -->
+        </div>
+      </div>
+  </div>
+
+
+  <!-- Fifth Parallax Image with Portfolio Text -->
+  <div class="bgimg-5 w3-display-container" id="portfolio">
+    <div class="w3-display-middle">
+      <h2 class="w3-xxlarge w3-text-light-grey w3-wide w3-robot">Director</h2>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64">
+    <h2 class="w3-center w3-robot w3-jumbo">High Tech Talk Show</h2>
+    <p class="w3-center">This year, I had the amazing oppurtunity to direct the High Tech Talk Show at my school. The High Tech Talk Show is a production that is put on every year and is composed, directed, and performed by students. I was fortunate enough to contribute to the creation of the script and music. For the past two years, I have performed. But this year, I directed and performed in the show creating such a rewarding experience. The reason why the High Tech Talk Show was created was due to the fact that a lot of high schools completely decide to brush off any issues that students face ranging from sexuality, pressure, stress, and mental health. They have went ahead and even labeled those things taboo. The mental health and wellness staff in the school were barely known before and we wanted to create a show that will change all of that in a funny and lighthearted way. </p>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+        <div class="w3-row">
+      <div class="w3-col s6 w3-center">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/CDekvpk8OFY" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+      <div class="w3-col s6 w3-center">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/SUk8N2CQK0o" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+<!-- Sixth Parallax Image with Portfolio Text -->
+<div class="bgimg-6 w3-display-container" id="contact">
+  <div class="w3-display-middle">
+    <h2 class="w3-xxlarge w3-text-light-grey w3-wide w3-robot">Contact</h2>
+  </div>
+</div>
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center w3-jumbo w3-robot">Connect With Me!</h3>
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m2">
+
+      <a target="_blank" href="https://www.facebook.com/jtub43">
+      <img src="Icons/facebook.png" style="width:50%" class="w3-hover-opacity">
+    </a>
+    </div>
+
+    <div class="w3-col m2">
+      <a target="_blank" href="https://twitter.com/jtub43">
+      <img src="Icons/twitter.png" style="width:50%"  class="w3-hover-opacity">
+      </a>
+    </div>
+
+    <div class="w3-col m2">
+      <a target="_blank" href="https://www.linkedin.com/in/joantubungbanua/">
+      <img src="Icons/linkedin.png" style="width:50%"  class="w3-hover-opacity">
+    </a>
+    </div>
+
+
+
+    <div class="w3-col m2">
+      <a href = "mailto: jtub43@gmail.com" target ="_blank">
+      <img src="Icons/email.png" style="width:50%"  class="w3-hover-opacity">
+    </a>
+    </div>
+
+    <div class="w3-col m2">
+      <a target="_blank" href="https://github.com/joantubungbanua">
+      <img src="Icons/github.png" style="width:50%"  class="w3-hover-opacity">
+    </a>
+    </div>
+
+    <div class="w3-col m2">
+      <a target="_blank" href="https://medium.com/@jtub43">
+      <img src="Icons/medium.png" style="width:50%"  class="w3-hover-opacity">
+    </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-grey w3-padding-32 w3-hover-pink cf">
+
+  <p class="w3-half">©</span>Joan Marie Tubungbanua</p>
+</footer>
+  <script src='https://maps.googleapis.com/maps/api/js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
