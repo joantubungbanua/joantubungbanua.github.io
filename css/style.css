@@ -54,6 +54,10 @@ html {
 }
 /* Second image (Portfolio) */
 
+#jumbotron__title{
+    color: #d124a9;
+}
+
 .bgimg-2 {
     background-image: url("rock.jpg");
     min-height: 400px;
@@ -147,3 +151,4 @@ i.fa {
 #profile {
     vertical-align: middle;
 }
+
