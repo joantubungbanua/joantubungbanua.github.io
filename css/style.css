@@ -59,13 +59,13 @@ html {
 }
 
 .bgimg-2 {
-    background-image: url("rock.jpg");
+    background-image: url("developer.jpeg");
     min-height: 400px;
 }
 /* Third image (Contact) */
 
 .bgimg-3 {
-    background-image: url("public.jpg");
+    background-image: url("developer.jpeg");
     min-height: 400px;
 }
 .bgimg-4 {
